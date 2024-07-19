@@ -5,7 +5,7 @@ const app = express();
 const snapsave = require('./snapsave-downloader');
 const port = 3000;
 
-app.get('/tera', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ message: 'Hello World!' });
 });
 
