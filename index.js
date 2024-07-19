@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Hello World!' });
 });
 
-app.get('/igdl', async (req, res) => {
+app.get('/tera', async (req, res) => {
   try {
     const url = req.query.url;
 
