@@ -26,5 +26,5 @@ app.get('/tera', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`Server is running at https://testing-hazel-gamma.vercel.app:${port}`);
 });
